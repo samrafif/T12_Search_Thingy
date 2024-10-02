@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Search Yourself</title>
+</head>
+<body>
+  <div class="whole-thing">
+    <div class="search-container">
+      <input type="text" name="" placeholder="Search" oninput="searchNames()" id="search-input">
+    </div>
+
+    <table>
+      <tbody id="data-table">
+      <tr id="header">
+        <th>No. <button id="up" onclick="sortNums()">^</button></th>
+        <th>Student</th>
+        <th>Score <button id="up" onclick="sortNames()">^</button></th>
+      </tr>
+    </tbody>
+    </table>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
