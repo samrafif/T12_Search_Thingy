@@ -159,7 +159,7 @@ function searchNames(event) {
 
   updateUI(
     data.filter((val, idx, arr) => {
-      return val.name.toLocaleLowerCase().includes(searchStr) ? val : null;
+      return val.name.toLowerCase().includes(searchStr) ? val : null;
     })
   );
 }
