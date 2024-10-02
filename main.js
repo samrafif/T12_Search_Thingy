@@ -155,7 +155,7 @@ function sortNames(event) {
 }
 
 function searchNames(event) {
-  let searchStr = searchInput.value;
+  let searchStr = searchInput.value.toLowerCase();
 
   updateUI(
     data.filter((val, idx, arr) => {
